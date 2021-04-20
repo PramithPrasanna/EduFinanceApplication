@@ -39,7 +39,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kmO-e2-13b" kind="show" id="OEO-3o-w8R"/>
+                                    <segue destination="kmO-e2-13b" kind="show" id="GK5-m1-GiA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEB-bx-Raf">
@@ -84,7 +84,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kmO-e2-13b" kind="show" id="Bd2-mp-y55"/>
+                                    <segue destination="qIf-fe-8qI" kind="show" id="qEE-EZ-AEi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TA7-Nd-ThE">
@@ -99,7 +99,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kmO-e2-13b" kind="show" id="vqD-M2-2bw"/>
+                                    <segue destination="ywd-8K-iqY" kind="show" id="65t-GO-y66"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYs-BN-rww">
@@ -251,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fTt-Gu-h9c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2254" y="112"/>
+            <point key="canvasLocation" x="2135" y="495"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KSx-oe-3ee">
@@ -486,7 +486,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mTC-QT-LlS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2136" y="-1507"/>
+            <point key="canvasLocation" x="2135" y="-1515"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ELQ-HK-lku">
@@ -1061,13 +1061,9 @@
                                     <segue destination="GHu-fl-gkn" kind="show" id="1Eg-4a-R0v"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIc-rD-JIv">
-                                <rect key="frame" x="58" y="377" width="298" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIc-rD-JIv">
+                                <rect key="frame" x="152.5" y="385" width="109" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.43993584740000002" blue="0.072472256380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="tqp-80-vtK"/>
-                                    <constraint firstAttribute="height" constant="30" id="w4m-QX-KhQ"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <state key="normal" title="Next Page">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1080,13 +1076,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="lIc-rD-JIv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-43" id="4iO-z1-4Iq"/>
                             <constraint firstItem="cUu-kh-nor" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GqQ-0H-XF0"/>
                             <constraint firstItem="jaL-Jv-v1C" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-234.5" id="J7u-ga-3gC"/>
                             <constraint firstItem="jaL-Jv-v1C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-91" id="KUh-wB-rtp"/>
                             <constraint firstItem="QbV-yK-QOb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="48.5" id="KWn-Dt-aXD"/>
-                            <constraint firstItem="lIc-rD-JIv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-18" id="Qeh-zP-L6a"/>
                             <constraint firstItem="cUu-kh-nor" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="79" id="R5k-Og-Ysx"/>
-                            <constraint firstItem="lIc-rD-JIv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="249" id="Rf1-mO-BzI"/>
+                            <constraint firstItem="lIc-rD-JIv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RzI-jL-xSh"/>
                             <constraint firstItem="QO8-R2-unW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jXw-BB-54E"/>
                             <constraint firstItem="QO8-R2-unW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t8S-IM-stU"/>
                             <constraint firstItem="QbV-yK-QOb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-233.5" id="yqo-o0-gSu"/>
@@ -1862,9 +1858,924 @@
             </objects>
             <point key="canvasLocation" x="14981" y="-1507"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="vH5-8m-8s0">
+            <objects>
+                <viewController id="ywd-8K-iqY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NYF-jf-hif">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCg-wU-KlI">
+                                <rect key="frame" x="157" y="135" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="DDT-WK-vPI"/>
+                                    <constraint firstAttribute="width" constant="201" id="im8-RM-hxG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yzi-88-RGy">
+                                <rect key="frame" x="35" y="253" width="344" height="590"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V3U-A3-m9C">
+                                        <rect key="frame" x="20" y="43" width="316" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="316" id="MHc-Eq-ltY"/>
+                                            <constraint firstAttribute="height" constant="97" id="TNZ-u9-LAd"/>
+                                        </constraints>
+                                        <string key="text">Credit is the ability to borrow money or access goods or services with the understanding that you'll pay later.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4yK-Jo-sfp">
+                                        <rect key="frame" x="20" y="105" width="316" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="316" id="Nfh-9x-TbK"/>
+                                            <constraint firstAttribute="height" constant="97" id="vf4-20-vRM"/>
+                                        </constraints>
+                                        <string key="text">Lenders, merchants, and service providers (known collectively as creditors) grant credit based on their confidence you can be trusted to pay back what you borrowed, along with any finance charges that may apply.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lv-eR-J1k">
+                                        <rect key="frame" x="272" y="545" width="45" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Yu0-0n-kEF"/>
+                                            <constraint firstAttribute="width" constant="45" id="oqh-Os-eC8"/>
+                                        </constraints>
+                                        <state key="normal" title="Next &gt;">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="cRX-NK-3cX" kind="show" id="DfV-IE-XgO"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SIr-P5-efJ">
+                                        <rect key="frame" x="24.5" y="196" width="295" height="66.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66.5" id="HoY-NJ-oNw"/>
+                                            <constraint firstAttribute="width" constant="295" id="WFR-oD-PFm"/>
+                                        </constraints>
+                                        <string key="text">To the extent that creditors consider you worthy of their trust, you are said to be creditworthy, or to have "good credit."
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZX-bn-AlU">
+                                        <rect key="frame" x="8" y="270" width="118" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="118" id="5JB-rz-gPC"/>
+                                            <constraint firstAttribute="height" constant="27" id="R1x-cX-a2H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kSe-mK-qJZ">
+                                        <rect key="frame" x="20" y="305" width="316" height="116.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="316" id="96O-Tm-u6b"/>
+                                            <constraint firstAttribute="height" constant="116.5" id="pA3-f5-GAD"/>
+                                        </constraints>
+                                        <string key="text">A credit card is a payment card issued to users to enable the cardholder to pay a merchant for goods and services based on the cardholder's promise to the card issuer to pay them for the amounts plus the other agreed charges.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wDO-lI-8Ht">
+                                        <rect key="frame" x="20" y="398" width="295" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="295" id="GCC-sb-6Fq"/>
+                                            <constraint firstAttribute="height" constant="72" id="gTx-eM-EZ9"/>
+                                        </constraints>
+                                        <string key="text">When using a credit card, you will need to make at least the minimum payment every month by the due date on the balance.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Credit?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5P-hF-iQE">
+                                        <rect key="frame" x="8" y="8" width="163" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="adB-V9-PXb"/>
+                                            <constraint firstAttribute="width" constant="163" id="sg7-DH-kwe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="344" id="1Hp-ry-SKN"/>
+                                    <constraint firstItem="kSe-mK-qJZ" firstAttribute="centerY" secondItem="yzi-88-RGy" secondAttribute="centerY" constant="68.25" id="3sT-bc-yWF"/>
+                                    <constraint firstItem="kZX-bn-AlU" firstAttribute="centerY" secondItem="yzi-88-RGy" secondAttribute="centerY" constant="-11.5" id="58V-h8-CoT"/>
+                                    <constraint firstItem="SIr-P5-efJ" firstAttribute="centerY" secondItem="yzi-88-RGy" secondAttribute="centerY" constant="-65.75" id="EcI-9a-F3J"/>
+                                    <constraint firstItem="4yK-Jo-sfp" firstAttribute="centerY" secondItem="yzi-88-RGy" secondAttribute="centerY" constant="-141.5" id="HCd-eJ-SHs"/>
+                                    <constraint firstItem="B5P-hF-iQE" firstAttribute="centerX" secondItem="yzi-88-RGy" secondAttribute="centerX" constant="-82.5" id="Iu7-Ik-e34"/>
+                                    <constraint firstItem="wDO-lI-8Ht" firstAttribute="centerX" secondItem="yzi-88-RGy" secondAttribute="centerX" constant="-4.5" id="NQL-pI-wib"/>
+                                    <constraint firstItem="9lv-eR-J1k" firstAttribute="centerY" secondItem="yzi-88-RGy" secondAttribute="centerY" constant="265" id="WR3-GC-avM"/>
+                                    <constraint firstItem="V3U-A3-m9C" firstAttribute="centerY" secondItem="yzi-88-RGy" secondAttribute="centerY" constant="-203.5" id="a37-Sp-jhD"/>
+                                    <constraint firstItem="wDO-lI-8Ht" firstAttribute="centerY" secondItem="yzi-88-RGy" secondAttribute="centerY" constant="139" id="arS-E8-EaW"/>
+                                    <constraint firstItem="4yK-Jo-sfp" firstAttribute="centerX" secondItem="yzi-88-RGy" secondAttribute="centerX" constant="6" id="b4p-ee-b5H"/>
+                                    <constraint firstItem="SIr-P5-efJ" firstAttribute="centerX" secondItem="yzi-88-RGy" secondAttribute="centerX" id="elA-lL-rO9"/>
+                                    <constraint firstItem="9lv-eR-J1k" firstAttribute="centerX" secondItem="yzi-88-RGy" secondAttribute="centerX" constant="122.5" id="her-Ij-qxS"/>
+                                    <constraint firstItem="B5P-hF-iQE" firstAttribute="centerY" secondItem="yzi-88-RGy" secondAttribute="centerY" constant="-273.5" id="oHG-GA-9IP"/>
+                                    <constraint firstAttribute="height" constant="590" id="qFp-YW-Ynd"/>
+                                    <constraint firstItem="V3U-A3-m9C" firstAttribute="centerX" secondItem="yzi-88-RGy" secondAttribute="centerX" constant="6" id="rzG-Gx-osa"/>
+                                    <constraint firstItem="kSe-mK-qJZ" firstAttribute="centerX" secondItem="yzi-88-RGy" secondAttribute="centerX" constant="6" id="tNV-8G-Dd2"/>
+                                    <constraint firstItem="kZX-bn-AlU" firstAttribute="centerX" secondItem="yzi-88-RGy" secondAttribute="centerX" constant="-105" id="zaG-1l-QcA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="A7N-Qb-7sn"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="hIJ-4D-nIV"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ms1-vU-Qln">
+                                <rect key="frame" x="65.5" y="135" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="6LE-lo-eLd"/>
+                                    <constraint firstAttribute="height" constant="65" id="PXY-uw-vCf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1X-eY-hWF">
+                                <rect key="frame" x="156.5" y="196" width="101" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="Dsd-W4-OQY"/>
+                                    <constraint firstAttribute="height" constant="42" id="kCR-Zt-oHr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lrE-hE-2Vb">
+                                <rect key="frame" x="149" y="217" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GEs-cg-XWr"/>
+                                    <constraint firstAttribute="width" constant="177.5" id="mbW-BJ-MYx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8xb-KG-O2i"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="J1X-eY-hWF" firstAttribute="centerX" secondItem="NYF-jf-hif" secondAttribute="centerX" id="2sY-4U-ZDx"/>
+                            <constraint firstItem="Ms1-vU-Qln" firstAttribute="centerY" secondItem="NYF-jf-hif" secondAttribute="centerY" constant="-280.5" id="4Mw-57-Rlb"/>
+                            <constraint firstItem="RCg-wU-KlI" firstAttribute="centerX" secondItem="NYF-jf-hif" secondAttribute="centerX" constant="50.5" id="7CC-c5-WPG"/>
+                            <constraint firstItem="yzi-88-RGy" firstAttribute="centerX" secondItem="NYF-jf-hif" secondAttribute="centerX" id="Lui-uj-dmD"/>
+                            <constraint firstItem="lrE-hE-2Vb" firstAttribute="centerX" secondItem="NYF-jf-hif" secondAttribute="centerX" constant="30.75" id="ZCY-oH-hmm"/>
+                            <constraint firstItem="Ms1-vU-Qln" firstAttribute="centerX" secondItem="NYF-jf-hif" secondAttribute="centerX" constant="-93" id="dtK-vA-pzO"/>
+                            <constraint firstItem="RCg-wU-KlI" firstAttribute="centerY" secondItem="NYF-jf-hif" secondAttribute="centerY" constant="-280.5" id="qrI-RV-SOL"/>
+                            <constraint firstItem="lrE-hE-2Vb" firstAttribute="centerY" secondItem="NYF-jf-hif" secondAttribute="centerY" constant="-220.5" id="sCP-hf-6H3"/>
+                            <constraint firstItem="yzi-88-RGy" firstAttribute="centerY" secondItem="NYF-jf-hif" secondAttribute="centerY" constant="100" id="t5p-7s-Fb6"/>
+                            <constraint firstItem="J1X-eY-hWF" firstAttribute="centerY" secondItem="NYF-jf-hif" secondAttribute="centerY" constant="-231" id="uvh-GZ-SGh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="BB8-yq-DMM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZMN-ld-iW9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2135" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="br5-eD-ord">
+            <objects>
+                <viewController id="cRX-NK-3cX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gUU-5s-dpb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fz6-L1-hBj">
+                                <rect key="frame" x="157" y="135" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="6jV-5b-QQW"/>
+                                    <constraint firstAttribute="height" constant="65" id="Xqn-ay-L6L"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="bkt-T6-ri0"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="201" id="rDG-hQ-UAa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHP-ih-ESB">
+                                <rect key="frame" x="35" y="253" width="344" height="590"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Credit Reports" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUa-a2-KQX">
+                                        <rect key="frame" x="4" y="8" width="150" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3x-bd-PW3">
+                                        <rect key="frame" x="272" y="545" width="45" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Next &gt;">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ekr-3K-8h0" kind="show" id="36R-bS-5CS"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VxY-fW-K4p">
+                                        <rect key="frame" x="14" y="43" width="316" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Your credit history is summarized in files known as credit reports, compiled by three independent credit bureaus: Experian, TransUnion, and Equifax. Banks, credit unions, credit card issuers, and other creditors voluntarily report your borrowing and repayment information to the credit bureaus.             
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="f21-cD-K3O">
+                                        <rect key="frame" x="17" y="174" width="277.5" height="49.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Information in your credit report includes:
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JNU-GB-DCh">
+                                        <rect key="frame" x="25" y="201" width="295" height="83"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• The number of credit card accounts you have, their borrowing limits, and current outstanding balances
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gJ2-ZL-sHd">
+                                        <rect key="frame" x="25" y="256" width="295" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• The amounts of any loans you've taken out and how much of them you've paid back
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="344" id="DRu-CN-Ok9"/>
+                                    <constraint firstAttribute="height" constant="590" id="rEe-hJ-JqE"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Q7l-nW-Vcd"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Bby-Hv-Wi1"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxk-4q-EYS">
+                                <rect key="frame" x="65.5" y="135" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="1d2-4g-xyb"/>
+                                    <constraint firstAttribute="height" constant="65" id="PmQ-h3-zln"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wH3-q4-Cl6">
+                                <rect key="frame" x="156.5" y="196" width="101" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="dmp-BV-ujw"/>
+                                    <constraint firstAttribute="height" constant="42" id="gn0-Wo-V7k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k7t-ih-biX">
+                                <rect key="frame" x="60" y="566" width="295" height="116.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">• Whether your monthly payments for your accounts were made on time, late, or missed altogether
+
+
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mfK-FK-Csf">
+                                <rect key="frame" x="63" y="627" width="295" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">• More severe financial setbacks such as mortgage foreclosures, car repossessions, and bankruptcies
+
+
+
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE1-xh-QS7">
+                                <rect key="frame" x="145" y="217" width="124.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124.5" id="rXz-d6-hoA"/>
+                                    <constraint firstAttribute="height" constant="21" id="v70-lo-3IB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NSb-eP-4IO"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="wH3-q4-Cl6" firstAttribute="centerX" secondItem="gUU-5s-dpb" secondAttribute="centerX" id="2j2-qT-z53"/>
+                            <constraint firstItem="TE1-xh-QS7" firstAttribute="centerY" secondItem="gUU-5s-dpb" secondAttribute="centerY" constant="-220.5" id="8Ea-rP-Aad"/>
+                            <constraint firstItem="eHP-ih-ESB" firstAttribute="centerY" secondItem="gUU-5s-dpb" secondAttribute="centerY" constant="100" id="Ffu-4R-Ho0"/>
+                            <constraint firstItem="TE1-xh-QS7" firstAttribute="centerX" secondItem="gUU-5s-dpb" secondAttribute="centerX" id="IaN-kU-0JB"/>
+                            <constraint firstItem="Fz6-L1-hBj" firstAttribute="centerX" secondItem="gUU-5s-dpb" secondAttribute="centerX" constant="50.5" id="JHu-tG-Bpz"/>
+                            <constraint firstItem="Fz6-L1-hBj" firstAttribute="centerY" secondItem="gUU-5s-dpb" secondAttribute="centerY" constant="-280.5" id="KBH-zz-QgP"/>
+                            <constraint firstItem="bxk-4q-EYS" firstAttribute="centerX" secondItem="gUU-5s-dpb" secondAttribute="centerX" constant="-93" id="ND2-xY-882"/>
+                            <constraint firstItem="wH3-q4-Cl6" firstAttribute="centerY" secondItem="gUU-5s-dpb" secondAttribute="centerY" constant="-231" id="Uff-Ba-k8c"/>
+                            <constraint firstItem="bxk-4q-EYS" firstAttribute="centerY" secondItem="gUU-5s-dpb" secondAttribute="centerY" constant="-280.5" id="lNx-e2-8LE"/>
+                            <constraint firstItem="eHP-ih-ESB" firstAttribute="centerX" secondItem="gUU-5s-dpb" secondAttribute="centerX" id="xfo-mm-xvH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vy2-ZF-CTm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OfA-5z-fmm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2976.811594202899" y="-840.40178571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O0m-z9-QEH">
+            <objects>
+                <viewController id="ekr-3K-8h0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SxI-ZB-7lO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvM-hX-EKq">
+                                <rect key="frame" x="157" y="135" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="UfM-tm-pKF"/>
+                                    <constraint firstAttribute="height" constant="65" id="cnH-w3-9tF"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="201" id="wAB-EI-N3Z"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="yu4-oS-aoh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QKO-3a-Ca6">
+                                <rect key="frame" x="35" y="253" width="344" height="590"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit Scores" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8W-r7-brX">
+                                        <rect key="frame" x="4" y="8" width="140" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="Esc-Sa-HZI"/>
+                                            <constraint firstAttribute="height" constant="27" id="tjJ-Vl-5rS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6p-mc-CrV">
+                                        <rect key="frame" x="272" y="545" width="45" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Next &gt;">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xfx-nw-499">
+                                        <rect key="frame" x="14" y="43" width="316" height="166.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="166.5" id="Lba-WH-p3k"/>
+                                            <constraint firstAttribute="width" constant="316" id="wKr-ds-1OO"/>
+                                        </constraints>
+                                        <string key="text">To help narrow their lending decisions, creditors often use a three-digit number known as a credit score as the first step in deciding whether or not to issue credit. Your credit score distills the information on your credit reports to something that's easy to interpret and does so in a fair way that minimizes the possibility of bias.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vrx-Q5-7X0">
+                                        <rect key="frame" x="16" y="235" width="163" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="163" id="OOG-ox-V16"/>
+                                            <constraint firstAttribute="height" constant="41" id="y33-X7-jY0"/>
+                                        </constraints>
+                                        <string key="text">• Pay Your Bills on Time
+
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BTO-bu-PJ7">
+                                        <rect key="frame" x="16" y="261" width="314" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="0zS-Ao-ehE"/>
+                                            <constraint firstAttribute="width" constant="314" id="vRY-2O-GAJ"/>
+                                        </constraints>
+                                        <string key="text">• Get Credit for Making Utility and Cell Phone Payments on Time.
+
+
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="baB-7C-Nd0">
+                                        <rect key="frame" x="16" y="309" width="314" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="314" id="b19-iZ-aCz"/>
+                                            <constraint firstAttribute="height" constant="48" id="iak-5W-p9A"/>
+                                        </constraints>
+                                        <string key="text">• Pay off Debt and Keep Balances Low on Credit Cards and Other Revolving Credit
+
+
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fa6-d1-lLa">
+                                        <rect key="frame" x="16" y="357" width="314" height="54"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="KmF-wM-cCk"/>
+                                            <constraint firstAttribute="width" constant="314" id="oC6-Hs-QOo"/>
+                                        </constraints>
+                                        <string key="text">• Apply for and Open New Credit Accounts Only as Needed
+
+
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U00-18-Mh9">
+                                        <rect key="frame" x="16" y="403" width="314" height="116.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="314" id="511-Hd-rYt"/>
+                                            <constraint firstAttribute="height" constant="116.5" id="zA0-Yd-nyJ"/>
+                                        </constraints>
+                                        <string key="text">• Don't Close Unused Credit Cards
+
+
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rebuilding Credit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HS-lc-KMn">
+                                        <rect key="frame" x="8" y="200" width="178" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="178" id="IUj-HF-9gD"/>
+                                            <constraint firstAttribute="height" constant="27" id="vHB-hm-6Xg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstItem="fa6-d1-lLa" firstAttribute="centerX" secondItem="QKO-3a-Ca6" secondAttribute="centerX" constant="1" id="7jx-Y2-196"/>
+                                    <constraint firstAttribute="width" constant="344" id="8zb-xC-IsK"/>
+                                    <constraint firstItem="xfx-nw-499" firstAttribute="centerY" secondItem="QKO-3a-Ca6" secondAttribute="centerY" constant="-168.75" id="CBT-Vh-o3p"/>
+                                    <constraint firstItem="9HS-lc-KMn" firstAttribute="centerY" secondItem="QKO-3a-Ca6" secondAttribute="centerY" constant="-81.5" id="II5-2J-N6B"/>
+                                    <constraint firstItem="BTO-bu-PJ7" firstAttribute="centerX" secondItem="QKO-3a-Ca6" secondAttribute="centerX" constant="1" id="JWe-tq-IRv"/>
+                                    <constraint firstItem="9HS-lc-KMn" firstAttribute="centerX" secondItem="QKO-3a-Ca6" secondAttribute="centerX" constant="-75" id="Mav-6x-fso"/>
+                                    <constraint firstItem="U00-18-Mh9" firstAttribute="centerY" secondItem="QKO-3a-Ca6" secondAttribute="centerY" constant="166.25" id="Ng9-oT-krk"/>
+                                    <constraint firstItem="fa6-d1-lLa" firstAttribute="centerY" secondItem="QKO-3a-Ca6" secondAttribute="centerY" constant="89" id="Q6l-ay-bAg"/>
+                                    <constraint firstItem="vrx-Q5-7X0" firstAttribute="centerY" secondItem="QKO-3a-Ca6" secondAttribute="centerY" constant="-39.5" id="Tz2-VG-GCg"/>
+                                    <constraint firstItem="vrx-Q5-7X0" firstAttribute="centerX" secondItem="QKO-3a-Ca6" secondAttribute="centerX" constant="-74.5" id="bNV-2u-zc4"/>
+                                    <constraint firstItem="U00-18-Mh9" firstAttribute="centerX" secondItem="QKO-3a-Ca6" secondAttribute="centerX" constant="1" id="btm-0e-Zd2"/>
+                                    <constraint firstAttribute="height" constant="590" id="eug-XI-mxf"/>
+                                    <constraint firstItem="xfx-nw-499" firstAttribute="centerX" secondItem="QKO-3a-Ca6" secondAttribute="centerX" id="fU9-TR-vA8"/>
+                                    <constraint firstItem="BTO-bu-PJ7" firstAttribute="centerY" secondItem="QKO-3a-Ca6" secondAttribute="centerY" constant="-8" id="gR9-Ay-Z3I"/>
+                                    <constraint firstItem="F8W-r7-brX" firstAttribute="centerY" secondItem="QKO-3a-Ca6" secondAttribute="centerY" constant="-273.5" id="htC-45-GCx"/>
+                                    <constraint firstItem="baB-7C-Nd0" firstAttribute="centerX" secondItem="QKO-3a-Ca6" secondAttribute="centerX" constant="1" id="juE-95-DaC"/>
+                                    <constraint firstItem="F8W-r7-brX" firstAttribute="centerX" secondItem="QKO-3a-Ca6" secondAttribute="centerX" constant="-98" id="m3j-D1-vyS"/>
+                                    <constraint firstItem="baB-7C-Nd0" firstAttribute="centerY" secondItem="QKO-3a-Ca6" secondAttribute="centerY" constant="38" id="ovB-0T-YR0"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Lq7-jb-7VS"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="0iw-lF-v3L"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXj-is-SU1">
+                                <rect key="frame" x="65.5" y="135" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="VTz-IA-221"/>
+                                    <constraint firstAttribute="width" constant="97" id="vhd-it-xgu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaB-Nr-K3Z">
+                                <rect key="frame" x="156.5" y="192" width="101" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="DN9-94-ahc"/>
+                                    <constraint firstAttribute="height" constant="42" id="IT0-TE-Hif"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2K-Ab-aSc">
+                                <rect key="frame" x="145" y="217" width="124.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="124.5" id="6de-li-yaJ"/>
+                                    <constraint firstAttribute="height" constant="21" id="MTS-OV-6jL"/>
+                                    <constraint firstAttribute="width" constant="124.5" id="rL0-wB-vQI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cBY-hU-lN6"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="r2K-Ab-aSc" firstAttribute="centerY" secondItem="SxI-ZB-7lO" secondAttribute="centerY" constant="-220.5" id="67k-BM-UF5"/>
+                            <constraint firstItem="r2K-Ab-aSc" firstAttribute="centerX" secondItem="SxI-ZB-7lO" secondAttribute="centerX" id="Ap2-ai-eZa"/>
+                            <constraint firstItem="QKO-3a-Ca6" firstAttribute="centerX" secondItem="SxI-ZB-7lO" secondAttribute="centerX" constant="1" id="J0c-vQ-y1V"/>
+                            <constraint firstItem="gvM-hX-EKq" firstAttribute="centerY" secondItem="SxI-ZB-7lO" secondAttribute="centerY" constant="-280.5" id="T0N-iw-SBV"/>
+                            <constraint firstItem="gXj-is-SU1" firstAttribute="centerY" secondItem="SxI-ZB-7lO" secondAttribute="centerY" constant="-280.5" id="Wxl-zJ-Zrh"/>
+                            <constraint firstItem="gvM-hX-EKq" firstAttribute="centerX" secondItem="SxI-ZB-7lO" secondAttribute="centerX" constant="50.5" id="a0N-UT-wVc"/>
+                            <constraint firstItem="gXj-is-SU1" firstAttribute="centerX" secondItem="SxI-ZB-7lO" secondAttribute="centerX" constant="-93" id="ddN-27-QWU"/>
+                            <constraint firstItem="UaB-Nr-K3Z" firstAttribute="centerX" secondItem="SxI-ZB-7lO" secondAttribute="centerX" id="hpw-Ke-bnm"/>
+                            <constraint firstItem="UaB-Nr-K3Z" firstAttribute="centerY" secondItem="SxI-ZB-7lO" secondAttribute="centerY" constant="-235" id="itQ-oT-HNt"/>
+                            <constraint firstItem="QKO-3a-Ca6" firstAttribute="centerY" secondItem="SxI-ZB-7lO" secondAttribute="centerY" constant="83" id="sSb-8a-b7e"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xg0-Cb-Dvy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rt0-8a-tjr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3882.608695652174" y="-840.40178571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="w1i-Lu-aWt">
+            <objects>
+                <viewController id="qIf-fe-8qI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cxC-zz-Xur">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuI-d0-j7R">
+                                <rect key="frame" x="157" y="135" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="8Cq-Gr-VTD"/>
+                                    <constraint firstAttribute="height" constant="65" id="jpz-s8-wE2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q25-wE-av8">
+                                <rect key="frame" x="35" y="253" width="344" height="590"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="osm-OS-2bo">
+                                        <rect key="frame" x="14" y="43" width="316" height="118"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Banks earn money by providing services to paying customers. That might include loans (mortgage, auto, business, and personal loans), as well as bank accounts of various types, and products like CDs and safe deposit boxes.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAa-tj-akv">
+                                        <rect key="frame" x="272" y="545" width="45" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="4l5-p1-xwQ"/>
+                                            <constraint firstAttribute="height" constant="30" id="5bH-Zi-dwT"/>
+                                        </constraints>
+                                        <state key="normal" title="Next &gt;">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="YRu-ns-b3W" kind="show" id="lNZ-Yr-yQX"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Savings vs Checkings Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6T-pD-R9F">
+                                        <rect key="frame" x="8" y="169" width="314" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is a Bank?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQJ-5j-QbY">
+                                        <rect key="frame" x="8" y="8" width="163" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Das-r7-oCC">
+                                        <rect key="frame" x="18" y="197" width="295" height="116.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• Savings Accounts, keep your money safe and earn a small amount of interest. The funds are available to be withdrawn whenever you need them.
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MR7-ua-uLP">
+                                        <rect key="frame" x="18" y="278" width="295" height="183.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• Checking accounts let you transfer funds to others by writing checks or using a debit card linked to the account. Bank accounts typically carry a small monthly fee, but that may be waived under the right conditions. In some very rare cases, a checking account might actually earn interest.
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Xd-Ci-AJ2">
+                                        <rect key="frame" x="14" y="405" width="316" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Checking accounts are better for everyday transactions such as purchases, bill payments, and ATM withdrawals. They typically earn less interest — or none. Savings accounts are better for storing money and earning interest, and because of that, you might have a monthly limit on what you can withdraw without paying
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstItem="BAa-tj-akv" firstAttribute="centerX" secondItem="Q25-wE-av8" secondAttribute="centerX" constant="122.5" id="06q-cD-B31"/>
+                                    <constraint firstAttribute="height" constant="590" id="1pt-SB-t4u"/>
+                                    <constraint firstItem="BAa-tj-akv" firstAttribute="centerY" secondItem="Q25-wE-av8" secondAttribute="centerY" constant="265" id="rnf-H8-oNR"/>
+                                    <constraint firstAttribute="width" constant="344" id="w6B-ic-BI3"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Ljf-lN-czz"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="H61-yZ-tNR"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00H-kL-heW">
+                                <rect key="frame" x="65.5" y="135" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Ygf-IK-bZ4"/>
+                                    <constraint firstAttribute="width" constant="97" id="wfW-Lf-w5e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xza-4L-bZ3">
+                                <rect key="frame" x="120.5" y="217" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2Xk-Uy-Edl"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="JEM-oI-S14"/>
+                                    <constraint firstAttribute="width" constant="177.5" id="tkl-RN-BBX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="177.5" id="vpJ-bZ-c52"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banking &amp; Investing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yT-ZX-CY6">
+                                <rect key="frame" x="46" y="194" width="322" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="322" id="hc3-kU-0ju"/>
+                                    <constraint firstAttribute="height" constant="42" id="tx2-E1-Tge"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EmG-ad-R9g"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="WuI-d0-j7R" firstAttribute="centerY" secondItem="cxC-zz-Xur" secondAttribute="centerY" constant="-280.5" id="3HY-SE-rx8"/>
+                            <constraint firstItem="00H-kL-heW" firstAttribute="centerX" secondItem="cxC-zz-Xur" secondAttribute="centerX" constant="-93" id="Eij-HV-fg1"/>
+                            <constraint firstItem="Xza-4L-bZ3" firstAttribute="centerY" secondItem="cxC-zz-Xur" secondAttribute="centerY" constant="-222.5" id="NiN-4c-rK0"/>
+                            <constraint firstItem="Q25-wE-av8" firstAttribute="centerX" secondItem="cxC-zz-Xur" secondAttribute="centerX" id="QIG-nW-pRy"/>
+                            <constraint firstItem="Xza-4L-bZ3" firstAttribute="centerX" secondItem="cxC-zz-Xur" secondAttribute="centerX" constant="30.75" id="Rgh-Qb-Ene"/>
+                            <constraint firstItem="1yT-ZX-CY6" firstAttribute="centerY" secondItem="cxC-zz-Xur" secondAttribute="centerY" constant="-233" id="aMJ-l8-NSy"/>
+                            <constraint firstItem="00H-kL-heW" firstAttribute="centerY" secondItem="cxC-zz-Xur" secondAttribute="centerY" constant="-280.5" id="dAA-wl-AVX"/>
+                            <constraint firstItem="1yT-ZX-CY6" firstAttribute="centerX" secondItem="cxC-zz-Xur" secondAttribute="centerX" id="gz2-gL-4nM"/>
+                            <constraint firstItem="Xza-4L-bZ3" firstAttribute="centerX" secondItem="cxC-zz-Xur" secondAttribute="centerX" constant="2" id="u94-sC-yK0"/>
+                            <constraint firstItem="Q25-wE-av8" firstAttribute="centerY" secondItem="cxC-zz-Xur" secondAttribute="centerY" constant="100" id="upa-fF-2ha"/>
+                            <constraint firstItem="WuI-d0-j7R" firstAttribute="centerX" secondItem="cxC-zz-Xur" secondAttribute="centerX" constant="50.5" id="wvg-Yj-sWV"/>
+                            <constraint firstItem="Xza-4L-bZ3" firstAttribute="centerY" secondItem="cxC-zz-Xur" secondAttribute="centerY" constant="-220.5" id="yhp-ky-No6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XRs-Uq-XJB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r49-ym-mik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2134.7826086956525" y="-190.17857142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Aff-fu-BNK">
+            <objects>
+                <viewController id="YRu-ns-b3W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qkq-Jm-8MY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivs-vo-7eg">
+                                <rect key="frame" x="157" y="135" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="DYO-bf-Uhj"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="201" id="Qw2-9E-BRl"/>
+                                    <constraint firstAttribute="width" constant="201" id="oLh-4V-meo"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="zOy-Qa-wLa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N7u-yR-2l5">
+                                <rect key="frame" x="35" y="253" width="344" height="590"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hr5-aX-tXB">
+                                        <rect key="frame" x="14" y="43" width="316" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Investing is an effective way to put your money to work and potentially build wealth. Smart investing may allow your money to outpace inflation and increase in value. The greater growth potential of investing is primarily due to the power of compounding and the risk-return tradeoff.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CY-ao-Oxq">
+                                        <rect key="frame" x="272" y="545" width="45" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="edM-yt-axc"/>
+                                            <constraint firstAttribute="width" constant="45" id="yc9-do-SvU"/>
+                                        </constraints>
+                                        <state key="normal" title="Next &gt;">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Benefits of Investing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FP-vh-qGF">
+                                        <rect key="frame" x="8" y="174" width="211" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyI-78-hZ3">
+                                        <rect key="frame" x="8" y="8" width="163" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Why Invest?
+</string>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vI6-kO-xD9">
+                                        <rect key="frame" x="18" y="201" width="216" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• You stay ahead of the inflation
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qsW-se-kPp">
+                                        <rect key="frame" x="18" y="221" width="299" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• Investing helps you build wealth
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VkL-Ao-7em">
+                                        <rect key="frame" x="18" y="269" width="299" height="83"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• Invest To Meet Other Financial Goals
+
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Akb-Av-giw">
+                                        <rect key="frame" x="17" y="306" width="310.5" height="183.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">You can also consider investing to help grow your money to meet other financial goals. For instance, investing in your child’s college fund. Other examples include: High-yield savings accounts, Certifices of deposit (CDs), Money market funds, Government bonds, Corporate bonds, Mutual funds, Index funds, Individual stocks, Alternative investments &amp; Real estate
+
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstItem="2CY-ao-Oxq" firstAttribute="centerX" secondItem="N7u-yR-2l5" secondAttribute="centerX" constant="122.5" id="HaX-Aq-jFS"/>
+                                    <constraint firstAttribute="width" constant="344" id="Vl8-vT-vnw"/>
+                                    <constraint firstAttribute="height" constant="590" id="ikW-OH-S3f"/>
+                                    <constraint firstItem="2CY-ao-Oxq" firstAttribute="centerY" secondItem="N7u-yR-2l5" secondAttribute="centerY" constant="265" id="zkE-be-1AN"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Ibp-5v-Ark"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ye8-3f-xHR"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTo-2b-Qeb">
+                                <rect key="frame" x="65.5" y="135" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="OaQ-Vp-IWq"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="Pbr-9O-Kjm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="Q6F-Uz-eoi"/>
+                                    <constraint firstAttribute="width" constant="97" id="fzg-UX-FOc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxC-rl-Md3">
+                                <rect key="frame" x="149" y="217" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="AZT-4W-qgH"/>
+                                    <constraint firstAttribute="width" constant="177.5" id="Fm0-sK-7M4"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="354" id="Yfq-cz-MEV"/>
+                                    <constraint firstAttribute="height" constant="21" id="uja-xz-7Qd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Banking &amp; Investing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGB-Ih-lgb">
+                                <rect key="frame" x="31.5" y="194" width="351" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="9Ci-nU-ibq"/>
+                                    <constraint firstAttribute="width" constant="351" id="ua5-rV-Sw4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nbV-rH-ZyL">
+                                <rect key="frame" x="51" y="498" width="299" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="4Rk-1C-WtG"/>
+                                    <constraint firstAttribute="width" constant="299" id="paU-VI-4Aj"/>
+                                </constraints>
+                                <string key="text">• Investing Will Get You to Retirement 
+
+
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="L76-d1-GRd"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="Ivs-vo-7eg" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" constant="50.5" id="0HB-ky-GZH"/>
+                            <constraint firstItem="Ivs-vo-7eg" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="-280.5" id="5CK-Cb-QnI"/>
+                            <constraint firstItem="BTo-2b-Qeb" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="-280.5" id="6om-CV-qZ0"/>
+                            <constraint firstItem="DxC-rl-Md3" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="-220.5" id="7P7-DL-rmt"/>
+                            <constraint firstItem="Ivs-vo-7eg" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" constant="50.5" id="7fa-eC-UiJ"/>
+                            <constraint firstItem="DxC-rl-Md3" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" constant="30.75" id="9av-i5-wvm"/>
+                            <constraint firstItem="VGB-Ih-lgb" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" id="AQj-g5-hLM"/>
+                            <constraint firstItem="DxC-rl-Md3" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="-220.5" id="Cfv-C9-CMk"/>
+                            <constraint firstItem="BTo-2b-Qeb" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="-280.5" id="LJu-H4-gI7"/>
+                            <constraint firstItem="BTo-2b-Qeb" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" constant="-93" id="MW2-LX-Xep"/>
+                            <constraint firstItem="BTo-2b-Qeb" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" constant="-93" id="Ncx-A3-Bys"/>
+                            <constraint firstItem="Ivs-vo-7eg" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="-280.5" id="VQo-ab-nwZ"/>
+                            <constraint firstItem="nbV-rH-ZyL" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" constant="-6.5" id="ZmO-p2-Xgz"/>
+                            <constraint firstItem="VGB-Ih-lgb" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="-233" id="hPf-Q0-e39"/>
+                            <constraint firstItem="N7u-yR-2l5" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="100" id="pfz-K0-y6j"/>
+                            <constraint firstItem="DxC-rl-Md3" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" constant="30.75" id="pzZ-dW-f0P"/>
+                            <constraint firstItem="nbV-rH-ZyL" firstAttribute="centerY" secondItem="Qkq-Jm-8MY" secondAttribute="centerY" constant="66" id="qGc-lW-yq8"/>
+                            <constraint firstItem="N7u-yR-2l5" firstAttribute="centerX" secondItem="Qkq-Jm-8MY" secondAttribute="centerX" id="z7v-w0-USE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JZf-FE-g0u"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tZ2-ES-qqo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2976.811594202899" y="-190.17857142857142"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vqD-M2-2bw"/>
+        <segue reference="Qkb-wq-Q19"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemTealColor"/>
     <resources>
