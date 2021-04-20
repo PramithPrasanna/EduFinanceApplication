@@ -486,7 +486,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mTC-QT-LlS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2135" y="-1515"/>
+            <point key="canvasLocation" x="2135" y="-2410"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ELQ-HK-lku">
@@ -669,7 +669,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mQr-QP-OoM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2978" y="-1507"/>
+            <point key="canvasLocation" x="2977" y="-2410"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sCc-XF-T3o">
@@ -871,7 +871,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7Z-rz-lY4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3884" y="-1507"/>
+            <point key="canvasLocation" x="3841" y="-2410"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WoE-LI-VkR">
@@ -1007,7 +1007,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wy4-IT-mEp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4812" y="-1507"/>
+            <point key="canvasLocation" x="4786" y="-2410"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -1233,6 +1233,9 @@
                                 <state key="normal" title="A loan organizer">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fJy-E5-Rz2" kind="show" id="6zA-lL-1Pa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="net-sg-VQT">
                                 <rect key="frame" x="20" y="514" width="374" height="69"/>
@@ -1242,6 +1245,9 @@
                                 <state key="normal" title="Interest Rate Planner">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fJy-E5-Rz2" kind="showDetail" id="VyJ-9I-xCd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGc-kD-Bdj">
                                 <rect key="frame" x="20" y="622" width="374" height="69"/>
@@ -1263,6 +1269,9 @@
                                 <state key="normal" title="None of the above">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fJy-E5-Rz2" kind="show" id="Sjb-OJ-1Q4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wZl-8F-nbL"/>
@@ -1298,6 +1307,9 @@
                                 <state key="normal" title="Help you save money for things you want">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fJy-E5-Rz2" kind="show" id="BN5-17-ajz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsM-Kh-I8C">
                                 <rect key="frame" x="20" y="514" width="374" height="69"/>
@@ -1307,6 +1319,9 @@
                                 <state key="normal" title="Helps prevent getting caught short by bills">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fJy-E5-Rz2" kind="show" id="9zg-Uo-wJA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pM-Xd-PiJ">
                                 <rect key="frame" x="20" y="622" width="374" height="69"/>
@@ -1328,6 +1343,9 @@
                                 <state key="normal" title="None of the above">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fJy-E5-Rz2" kind="show" id="XDx-Hu-yKp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wAy-CG-690"/>
@@ -1363,6 +1381,9 @@
                                 <state key="normal" title="Gathering all your money">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qNV-eB-PBs" kind="show" id="1NR-Mr-36Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tV-xM-ony">
                                 <rect key="frame" x="20" y="514" width="374" height="69"/>
@@ -1384,6 +1405,9 @@
                                 <state key="normal" title="Tracking your spending">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qNV-eB-PBs" kind="show" id="gbh-yF-ZGS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Eq-tV-5fS">
                                 <rect key="frame" x="20" y="736" width="374" height="69"/>
@@ -1393,6 +1417,9 @@
                                 <state key="normal" title="Determining what to do with your savings">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qNV-eB-PBs" kind="show" id="rY4-a7-fxD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qzf-3Y-cfk"/>
@@ -1437,6 +1464,9 @@
                                 <state key="normal" title="Credit/Debit Card Number">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qNV-eB-PBs" kind="show" id="mJP-vb-cdo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TS-Im-5LN">
                                 <rect key="frame" x="20" y="622" width="374" height="69"/>
@@ -1446,6 +1476,9 @@
                                 <state key="normal" title="Housing Documents">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qNV-eB-PBs" kind="show" id="fIv-kk-9Ti"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BsM-gO-cPR">
                                 <rect key="frame" x="20" y="736" width="374" height="69"/>
@@ -1455,6 +1488,9 @@
                                 <state key="normal" title="Social Security Number">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qNV-eB-PBs" kind="show" id="XeR-qy-Fer"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cc2-Lg-orH">
                                 <rect key="frame" x="20" y="404" width="374" height="69"/>
@@ -2249,6 +2285,9 @@
                                         <state key="normal" title="Next &gt;">
                                             <color key="titleColor" systemColor="linkColor"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="pPe-fP-uDk" kind="show" id="U4n-CA-WhL"/>
+                                        </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xfx-nw-499">
                                         <rect key="frame" x="14" y="43" width="316" height="166.5"/>
@@ -2773,8 +2812,1623 @@
             </objects>
             <point key="canvasLocation" x="2976.811594202899" y="-190.17857142857142"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="dEc-XK-SCJ">
+            <objects>
+                <viewController id="pPe-fP-uDk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I1T-pQ-TBF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJ4-In-34x">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">True or False: Credit is the ability to borrow money or access goods or services with the understanding that you will pay later.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W39-lQ-J2W">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="True">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="U65-J6-Z0i" kind="show" id="1AC-TN-3nC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bkp-qD-ez5">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="False">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ttB-Zi-OxR"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="41w-Xr-C5U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vcC-k9-dge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4833" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Za-43-DcU">
+            <objects>
+                <viewController id="U65-J6-Z0i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JuV-fQ-O8M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which of the following are collectively considered as creditors?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9m7-pH-ah6">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJR-t8-jWP">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Lenders">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOQ-Wt-3yt">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Merchants">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqh-D3-bdO">
+                                <rect key="frame" x="20" y="622" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Service Providers">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehj-Rb-D3n">
+                                <rect key="frame" x="20" y="736" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="All of the above">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qvk-cs-aac" kind="show" id="5Pf-56-O7B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AZZ-dx-XeE"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cbR-Qg-LwG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="92f-3z-XGW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5754" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xH8-mK-shh">
+            <objects>
+                <viewController id="qvk-cs-aac" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Dt-qb-m8s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How can you be granted credit?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WF6-ua-hji">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YP-tI-nUq">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="By making a lot of purchases">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrY-c5-Cml">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="By saving alot of money">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KP-9f-VTR">
+                                <rect key="frame" x="20" y="622" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <state key="normal" title="By earning trust that you will pay back the loan">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5ES-tF-AaD" kind="show" id="l9r-eF-whz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWc-8W-FoI">
+                                <rect key="frame" x="20" y="736" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="You can't be granted credit">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wye-2Q-apR"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qo2-H4-cy1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1F4-d2-DJb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6587" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EHg-yn-TfE">
+            <objects>
+                <viewController id="5ES-tF-AaD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l1k-7D-VIh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is something that you have to do with the responsibility of owning a credit card?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OyW-Tc-x9S">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doh-Ik-IRq">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Save money">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXG-Ma-vxx">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Make the payments on time">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fKs-iI-Zlz" kind="show" id="kt5-1X-lqi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnw-0U-IFk">
+                                <rect key="frame" x="20" y="622" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Make as many purchases as you can">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4D-Eg-dZC">
+                                <rect key="frame" x="20" y="736" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="None of the above">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TAS-c2-vx0"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Au7-ob-n0U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w5d-yg-qUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7499" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fEK-10-R7b">
+            <objects>
+                <viewController id="fKs-iI-Zlz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ab-sA-aa1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zt-M4-Va4">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">True or False: Your credit history is summarized in a file known as credit reports compiled by only the TransUnion Credit Bureau.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTT-5b-TUF">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="True">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLH-vr-YSO">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="False">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vw7-ID-ven" kind="show" id="fZ1-o2-xoE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="292-Ns-OTj"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nll-BO-4jf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R6A-8h-xhR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8364" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tZq-fN-3dm">
+            <objects>
+                <viewController id="vw7-ID-ven" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Yj-cw-xtZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVC-3O-1ei">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Do Banks, Credit Unions, Credit Card Issuers, and other creditors voluntarily report your borrowing and repayment information to the credit bureaus?</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghi-rY-32R">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JWq-0T-rsz" kind="show" id="2WO-S4-fPX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLn-yd-OB1">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUV-7A-h4c">
+                                <rect key="frame" x="20" y="622" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="They have no access to my credit report">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ixt-oV-nME"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TVP-Pi-Xyf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgo-BY-4H4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9303" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ksi-QD-7b2">
+            <objects>
+                <viewController id="JWq-0T-rsz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iA1-Py-Agt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the first thing that creditors often use to decide whether or not to issue you credit?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MzD-Lu-tcP">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkk-Wf-3qH">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="The number of credit cards you acquire">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fG2-6f-tVM">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="A 15 or 16 digit number to identify your credit">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFo-8H-psj">
+                                <rect key="frame" x="20" y="622" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Your monthly payments">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbj-Lo-aMB">
+                                <rect key="frame" x="20" y="736" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="A three-digit number known as a credit score">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uk6-TN-1DY" kind="show" id="bDB-gC-xyB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="J0j-CN-CYU"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Akx-F8-jT7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Jg-wm-TQs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10219" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WKk-fc-ZS6">
+            <objects>
+                <viewController id="uk6-TN-1DY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P0G-OR-sR9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are all of the following the correct bureaus? Experian, TransUnion, Equifax" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I03-DM-3Il">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwc-4t-uhg">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Yes, all three bureaus">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sTn-O2-x5t" kind="show" id="2SN-vD-rXA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niX-Pw-fPY">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="None of the above">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEv-eG-xNh">
+                                <rect key="frame" x="20" y="622" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Only I and II">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqw-Tw-3X0">
+                                <rect key="frame" x="20" y="736" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Only II">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7Dn-4W-tq0"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZpJ-eH-y2w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1AE-9W-WiK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11171" y="-840"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FNr-kP-ZzC">
+            <objects>
+                <viewController id="sTn-O2-x5t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E2N-QZ-XHz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What else is considered in a credit report?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOV-WO-QbY">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhj-b9-viD">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="The number of credit card accounts you have">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9u-k6-hag">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Severe financial setbacks">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hq7-To-gtn">
+                                <rect key="frame" x="20" y="622" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="All of the above">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nFY-ZX-rxL" kind="show" id="sYH-h3-XNr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgh-9J-8dX">
+                                <rect key="frame" x="20" y="736" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="None of the above">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bnV-wK-fGZ"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zg0-qT-Vof"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ck3-vz-Joc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12119" y="-848"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TL0-Ue-wTf">
+            <objects>
+                <viewController id="nFY-ZX-rxL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q0P-qi-iOk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWM-XP-eku">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">True or False: Your credit score distills the information on your credit report to something that is complicated to interpret which could be biased.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RD-fa-ZMs">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="True">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlA-fK-U54">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.93964192160000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="False">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eF3-sK-X5d" kind="show" id="knt-o4-n04"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DRS-hy-jeI"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gd2-Wk-WfK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ou0-gq-XtV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13074" y="-848"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KhM-QN-apj">
+            <objects>
+                <viewController id="eF3-sK-X5d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z5M-jf-x2j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONGRATULATIONS YOU PASSED THE QUIZ! YOU HAVE A NEW CERTIFICATE UNLOCKED!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8e-gz-dOZ">
+                                <rect key="frame" x="20" y="150" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qH-C0-ZSb">
+                                <rect key="frame" x="20" y="405" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="YES SHOW ME!!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHE-Nb-jFw">
+                                <rect key="frame" x="20" y="514" width="374" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Go back home">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8TD-FH-S5k"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HDc-Ql-vpw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JWj-Is-c3V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14113" y="-848"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rdO-z0-3M4">
+            <objects>
+                <viewController id="fJy-E5-Rz2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rRb-se-jlM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epR-xx-AaY">
+                                <rect key="frame" x="157" y="135" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="9Ai-If-s3L"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="201" id="NB7-zs-m9q"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="hc1-53-leX"/>
+                                    <constraint firstAttribute="height" constant="65" id="jaE-uD-cFX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mxR-z3-KSV">
+                                <rect key="frame" x="35" y="253" width="344" height="590"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why a Budget?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQ9-Km-gWP">
+                                        <rect key="frame" x="8" y="8" width="155" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="155" id="Osq-eP-FxH"/>
+                                            <constraint firstAttribute="height" constant="27" id="wIr-To-S0s"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dS8-UG-1Tf">
+                                        <rect key="frame" x="20" y="43" width="316" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="1HI-li-vnT"/>
+                                            <constraint firstAttribute="width" constant="316" id="evC-VQ-9f8"/>
+                                        </constraints>
+                                        <string key="text">First of all, let's make sure we understand what a budget is exactly. A budget is a spending plan, a system that lets you know how much money you are spending and gaining.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Now, let’s think about whether you would want one or not. Ask yourself the following questions:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2OT-Ex-d4T">
+                                        <rect key="frame" x="20" y="125" width="316" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="Nhu-Ug-VNC"/>
+                                            <constraint firstAttribute="width" constant="316" id="u3D-iJ-c5U"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="If you’ve answered yes to any of these questions, then a budget is exactly what you need! A budget can: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="amL-mA-6Du">
+                                        <rect key="frame" x="20" y="360" width="316" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="fOn-Tn-nlv"/>
+                                            <constraint firstAttribute="width" constant="316" id="t3q-Y9-2X2"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TKL-B4-hUw">
+                                        <rect key="frame" x="49" y="194" width="295" height="66.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66.5" id="dTx-CC-vdf"/>
+                                            <constraint firstAttribute="width" constant="295" id="fme-qn-1zH"/>
+                                        </constraints>
+                                        <string key="text">• Would you like to know where your money is going/spent?
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YyB-No-d3k">
+                                        <rect key="frame" x="49" y="241" width="295" height="66.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="295" id="ZtR-M3-9ci"/>
+                                            <constraint firstAttribute="height" constant="66.5" id="bm2-d5-Z5r"/>
+                                        </constraints>
+                                        <string key="text">• Would you want to make a significant purchase at one point?
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="• Do you want to go to college?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Glb-7S-IUs">
+                                        <rect key="frame" x="49" y="285" width="295" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="MM9-jb-Ut0"/>
+                                            <constraint firstAttribute="width" constant="295" id="hUK-wD-8Fh"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="• Do you find it troubling to find the money when you most need it?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HbV-wv-Rti">
+                                        <rect key="frame" x="49" y="313" width="295" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="80E-jy-i3G"/>
+                                            <constraint firstAttribute="width" constant="295" id="83H-4Y-SPm"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="• Help you understand your financial situation" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="67X-Wj-3E9">
+                                        <rect key="frame" x="49" y="418" width="295" height="49.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="49.5" id="mNf-Ec-ncK"/>
+                                            <constraint firstAttribute="width" constant="295" id="o2R-SW-JfO"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="• Help you with avoiding getting caught short by bills that you can’t pay" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G97-xC-OaA">
+                                        <rect key="frame" x="49" y="499" width="295" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="MOZ-VN-edC"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="295" id="Vs5-Sh-LZq"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="YDT-fq-DL0"/>
+                                            <constraint firstAttribute="width" constant="295" id="iK8-Rc-aY0"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="• Help you save money for things that you want" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xDu-rP-yDV">
+                                        <rect key="frame" x="49" y="459" width="295" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="295" id="3Ai-F6-dae"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="7eV-N5-Sq4"/>
+                                            <constraint firstAttribute="width" constant="295" id="Kjz-IM-lUn"/>
+                                            <constraint firstAttribute="height" constant="48" id="d1J-YW-aL3"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstItem="TKL-B4-hUw" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="24.5" id="8c9-On-8ct"/>
+                                    <constraint firstItem="dS8-UG-1Tf" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="-203.5" id="CsM-EG-sIA"/>
+                                    <constraint firstAttribute="height" constant="590" id="ECA-ck-uvI"/>
+                                    <constraint firstItem="Glb-7S-IUs" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="14" id="Ehz-xo-8kA"/>
+                                    <constraint firstItem="G97-xC-OaA" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="227.75" id="Fc8-94-Heu"/>
+                                    <constraint firstItem="HbV-wv-Rti" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="24.5" id="GlE-e3-Tn0"/>
+                                    <constraint firstItem="TKL-B4-hUw" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="-67.75" id="HVe-22-MCB"/>
+                                    <constraint firstItem="2OT-Ex-d4T" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="6" id="KW2-vC-hPm"/>
+                                    <constraint firstItem="YyB-No-d3k" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="24.5" id="O5E-ld-lel"/>
+                                    <constraint firstItem="YyB-No-d3k" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="-20.75" id="Otq-so-gXM"/>
+                                    <constraint firstItem="amL-mA-6Du" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="113.5" id="SHc-rv-VPg"/>
+                                    <constraint firstItem="amL-mA-6Du" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="6" id="Sss-iu-5a1"/>
+                                    <constraint firstItem="67X-Wj-3E9" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="24.5" id="VcS-26-FON"/>
+                                    <constraint firstItem="xDu-rP-yDV" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="24.5" id="W02-iH-nIL"/>
+                                    <constraint firstItem="Glb-7S-IUs" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="24.5" id="XOh-wx-N1D"/>
+                                    <constraint firstItem="G97-xC-OaA" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="24.5" id="Ztb-CG-5ss"/>
+                                    <constraint firstAttribute="width" constant="344" id="eEp-fp-gBV"/>
+                                    <constraint firstItem="dS8-UG-1Tf" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="6" id="el6-2V-9hn"/>
+                                    <constraint firstItem="kQ9-Km-gWP" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="-273.5" id="hWb-Jk-K8F"/>
+                                    <constraint firstItem="67X-Wj-3E9" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="147.75" id="lgV-uU-Fu8"/>
+                                    <constraint firstItem="2OT-Ex-d4T" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="-121.5" id="phO-Ig-W7u"/>
+                                    <constraint firstItem="kQ9-Km-gWP" firstAttribute="centerX" secondItem="mxR-z3-KSV" secondAttribute="centerX" constant="-86.5" id="ubU-Y5-2dp"/>
+                                    <constraint firstItem="xDu-rP-yDV" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="187.75" id="zNz-nO-6jk"/>
+                                    <constraint firstItem="HbV-wv-Rti" firstAttribute="centerY" secondItem="mxR-z3-KSV" secondAttribute="centerY" constant="44" id="zQz-K1-5fG"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="4ZC-HV-yTO"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="01s-yt-f9H"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljw-vk-Kpp">
+                                <rect key="frame" x="65.5" y="135" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="DA0-qY-c27"/>
+                                    <constraint firstAttribute="height" constant="65" id="cME-On-BvD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Budgeting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDG-8h-799">
+                                <rect key="frame" x="123" y="196" width="169" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="04P-Yr-wqW"/>
+                                    <constraint firstAttribute="width" constant="169" id="Sjr-Sz-lkS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77v-it-7fJ">
+                                <rect key="frame" x="118.5" y="217" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177.5" id="5Of-zO-WN6"/>
+                                    <constraint firstAttribute="height" constant="21" id="j7s-D8-qKu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BsI-Gs-x4v"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="mxR-z3-KSV" firstAttribute="centerY" secondItem="rRb-se-jlM" secondAttribute="centerY" constant="83" id="3JS-Rt-k0t"/>
+                            <constraint firstItem="mxR-z3-KSV" firstAttribute="centerX" secondItem="rRb-se-jlM" secondAttribute="centerX" constant="1" id="3oR-7N-Mtb"/>
+                            <constraint firstItem="77v-it-7fJ" firstAttribute="centerX" secondItem="rRb-se-jlM" secondAttribute="centerX" id="9cp-ni-OoG"/>
+                            <constraint firstItem="GDG-8h-799" firstAttribute="centerY" secondItem="rRb-se-jlM" secondAttribute="centerY" constant="-237" id="B1D-6Q-vcu"/>
+                            <constraint firstItem="ljw-vk-Kpp" firstAttribute="centerY" secondItem="rRb-se-jlM" secondAttribute="centerY" constant="-280.5" id="Dc4-HE-Z8a"/>
+                            <constraint firstItem="GDG-8h-799" firstAttribute="centerX" secondItem="rRb-se-jlM" secondAttribute="centerX" id="WHZ-he-Cf5"/>
+                            <constraint firstItem="epR-xx-AaY" firstAttribute="centerX" secondItem="rRb-se-jlM" secondAttribute="centerX" constant="50.5" id="d0w-vQ-A2D"/>
+                            <constraint firstItem="epR-xx-AaY" firstAttribute="centerY" secondItem="rRb-se-jlM" secondAttribute="centerY" constant="-280.5" id="hCy-sv-Jtd"/>
+                            <constraint firstItem="ljw-vk-Kpp" firstAttribute="centerX" secondItem="rRb-se-jlM" secondAttribute="centerX" constant="-93" id="pDX-vr-mK0"/>
+                            <constraint firstItem="77v-it-7fJ" firstAttribute="centerY" secondItem="rRb-se-jlM" secondAttribute="centerY" constant="-220.5" id="qYb-QM-QkP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yjy-Z4-cf0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vCL-qd-QSj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2135" y="-1637"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="g4U-Qj-nWp">
+            <objects>
+                <viewController id="qNV-eB-PBs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dYA-Sy-oQG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrB-U8-2qi">
+                                <rect key="frame" x="157" y="128" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="201" id="6Eo-7h-5Hx"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="201" id="7i6-Ku-Zxy"/>
+                                    <constraint firstAttribute="height" constant="65" id="LkG-yZ-FfL"/>
+                                    <constraint firstAttribute="width" constant="201" id="dyl-6T-64A"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="mfZ-uv-xE3"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="nMw-BU-gUr"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="r9d-Mg-2my"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="201" id="wjY-g0-HZZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0FO-vt-HAQ">
+                                <rect key="frame" x="65" y="128" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="FWP-xO-KaZ"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="97" id="OQm-ya-3ga"/>
+                                    <constraint firstAttribute="width" constant="97" id="hbW-Io-IOs"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="ouL-2t-Hjd"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="qdK-YC-wSn"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="zQg-3Y-cwP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Budgeting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5a-wm-g7I">
+                                <rect key="frame" x="122.5" y="189" width="169" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="BRo-Q2-g5F"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="Iq1-Z3-NUQ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="akN-fM-eG2"/>
+                                    <constraint firstAttribute="width" constant="169" id="f7r-5W-6fh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="42" id="qRR-VD-Tnn"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="169" id="tux-Hx-BX8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkF-OD-BQK">
+                                <rect key="frame" x="118.5" y="210" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="7hF-aS-eU9"/>
+                                    <constraint firstAttribute="height" constant="21" id="J0c-sM-xKb"/>
+                                    <constraint firstAttribute="width" constant="177.5" id="JAk-EE-3rN"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="177.5" id="Z03-hF-9kU"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="177.5" id="ele-ZD-2ep"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="rbB-K6-ZMm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bdX-XC-LKk">
+                                <rect key="frame" x="34" y="253" width="344" height="590"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Preparing a Budget" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5J-f8-a16">
+                                        <rect key="frame" x="8" y="8" width="216" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Identify Your Goals" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UgN-Zm-33N">
+                                        <rect key="frame" x="20" y="43" width="297" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Mint, PocketGuard, You Need a Budget, Mvelopes, Goodbudget, Personal Capital" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="f19-Nq-MYy">
+                                        <rect key="frame" x="20" y="384" width="295" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The first step of creating a budget is identifying your goals. You will need to think through what you want to accomplish." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ja2-PF-YTq">
+                                        <rect key="frame" x="20" y="66" width="297" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Calculate your Income" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Ik-AK-aKU">
+                                        <rect key="frame" x="20" y="141" width="297" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XKw-q4-JVw">
+                                        <rect key="frame" x="20" y="164" width="297" height="183.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">How much income can you expect each month? If your income is in the form of a regular paycheck where taxes are automatically deducted, then using the net income (or take-home pay) amount is fine. If you are self-employed or have outside sources of income, such as child support or Social Security, include these as well. Record this total income as a monthly amount.</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Our Budgeting App Recommendations" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8nc-dl-7zt">
+                                        <rect key="frame" x="20" y="355" width="295" height="49.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="590" id="Aem-Ko-EgN"/>
+                                    <constraint firstAttribute="width" constant="344" id="Gnt-Vc-rRQ"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="344" id="Ne7-Wp-QY0"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="344" id="aes-oI-eML"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="590" id="ka3-xI-qx2"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="590" id="xSg-dY-IyM"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="zot-Fd-97z"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="19z-Yo-amM"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="13g-pN-sFE"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HrB-U8-2qi" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-287.5" id="4Za-Kh-upU"/>
+                            <constraint firstItem="bdX-XC-LKk" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" constant="-1" id="6GH-rF-vKe"/>
+                            <constraint firstItem="rkF-OD-BQK" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-227.5" id="A5A-B2-1VM"/>
+                            <constraint firstItem="rkF-OD-BQK" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" id="C2N-em-BQj"/>
+                            <constraint firstItem="HrB-U8-2qi" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-287.5" id="Cda-ed-c1Z"/>
+                            <constraint firstItem="bdX-XC-LKk" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" constant="-1" id="HHh-gr-YZy"/>
+                            <constraint firstItem="W5a-wm-g7I" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-238" id="Hxh-OG-gRu"/>
+                            <constraint firstItem="0FO-vt-HAQ" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-287.5" id="INy-2c-RLH"/>
+                            <constraint firstItem="0FO-vt-HAQ" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-287.5" id="NIH-mv-SVT"/>
+                            <constraint firstItem="0FO-vt-HAQ" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" constant="-93.5" id="Oda-e2-wdu"/>
+                            <constraint firstItem="W5a-wm-g7I" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" id="QbF-Fz-52s"/>
+                            <constraint firstItem="rkF-OD-BQK" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-227.5" id="QxH-aY-cKd"/>
+                            <constraint firstItem="HrB-U8-2qi" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" constant="50.5" id="SEI-X9-IAP"/>
+                            <constraint firstItem="rkF-OD-BQK" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" id="V1Q-ud-Dok"/>
+                            <constraint firstItem="W5a-wm-g7I" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-238" id="bDb-7a-VMe"/>
+                            <constraint firstItem="0FO-vt-HAQ" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" constant="-93.5" id="dc2-G6-qvg"/>
+                            <constraint firstItem="HrB-U8-2qi" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" constant="50.5" id="fXY-cD-ShC"/>
+                            <constraint firstItem="bdX-XC-LKk" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="100" id="gZZ-DH-LNo"/>
+                            <constraint firstItem="HrB-U8-2qi" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" constant="50.5" id="hEb-Pg-sgF"/>
+                            <constraint firstItem="W5a-wm-g7I" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" id="ieb-fY-8WT"/>
+                            <constraint firstItem="bdX-XC-LKk" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="93" id="nFW-26-oac"/>
+                            <constraint firstItem="bdX-XC-LKk" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" id="nfr-3L-lq0"/>
+                            <constraint firstItem="0FO-vt-HAQ" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-287.5" id="oa4-lw-yQC"/>
+                            <constraint firstItem="0FO-vt-HAQ" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" constant="-93.5" id="pLp-ZM-3uL"/>
+                            <constraint firstItem="W5a-wm-g7I" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-238" id="rOc-Z1-YOD"/>
+                            <constraint firstItem="bdX-XC-LKk" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="100" id="utX-UN-kXT"/>
+                            <constraint firstItem="W5a-wm-g7I" firstAttribute="centerX" secondItem="dYA-Sy-oQG" secondAttribute="centerX" id="w9L-Wc-SEa"/>
+                            <constraint firstItem="HrB-U8-2qi" firstAttribute="centerY" secondItem="dYA-Sy-oQG" secondAttribute="centerY" constant="-287.5" id="x1b-ow-IG0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4bK-HI-Jt5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BOl-FK-4N4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2977" y="-1637"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fPA-ED-7hC">
+            <objects>
+                <viewController id="ay4-K9-ptB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8r8-vC-ubZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqf-cQ-VKT">
+                                <rect key="frame" x="157" y="134" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="201" id="eMy-Z8-ceA"/>
+                                    <constraint firstAttribute="height" constant="65" id="gcd-Xo-y3a"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="rrB-nP-doj"/>
+                                    <constraint firstAttribute="width" constant="201" id="yA5-5O-aa3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sB3-nE-LPZ">
+                                <rect key="frame" x="35" y="252" width="344" height="590"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorting Expenses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWl-eC-dOI">
+                                        <rect key="frame" x="8" y="8" width="196" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="196" id="Kbi-wl-vbL"/>
+                                            <constraint firstAttribute="height" constant="27" id="i3n-F2-kc9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Create a List of Monthly Expenses" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rsw-Q1-rBz">
+                                        <rect key="frame" x="14" y="365" width="316" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="kvQ-DL-xfI"/>
+                                            <constraint firstAttribute="width" constant="316" id="vmq-QG-1d4"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Calculate your Income" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uhB-sQ-4hs">
+                                        <rect key="frame" x="14" y="166" width="295" height="66.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="295" id="Mbj-ls-qVe"/>
+                                            <constraint firstAttribute="height" constant="66.5" id="U61-jQ-2rX"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7vn-s2-sFQ">
+                                        <rect key="frame" x="14" y="43" width="316" height="124"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="316" id="Fkf-La-Csj"/>
+                                            <constraint firstAttribute="height" constant="124" id="WA8-I4-Ztj"/>
+                                        </constraints>
+                                        <string key="text">Before you begin, gather up all your financial statements including: Bank statements, Investment accounts, Recent utility bills, W-2s and paystubs, 1099s, Credit card bills, Receipts from the last three months, Mortgage or auto loan statements
+ 
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wTs-FZ-WeH">
+                                        <rect key="frame" x="14" y="382" width="316" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="316" id="Api-TM-pfb"/>
+                                            <constraint firstAttribute="height" constant="51" id="zWh-qj-aQg"/>
+                                        </constraints>
+                                        <string key="text">This list could include: Mortgage payments or rent, Car payments, Insurance
+ </string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Determine Fixed and Variable Income" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Chf-IL-okN">
+                                        <rect key="frame" x="14" y="441" width="316" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="316" id="FRZ-kZ-MhE"/>
+                                            <constraint firstAttribute="height" constant="33" id="t16-qJ-HYj"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iOX-aR-5Q1">
+                                        <rect key="frame" x="14" y="458" width="316" height="79"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="79" id="UN7-aV-LML"/>
+                                            <constraint firstAttribute="width" constant="316" id="n0d-VY-IFV"/>
+                                        </constraints>
+                                        <string key="text">Fixed expenses are those mandatory expenses that you pay the same amount for each time. Variable expenses are the type that will change from month to month.</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UFn-Rb-mkT">
+                                        <rect key="frame" x="14" y="185" width="330" height="181"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="181" id="V9M-GD-ZI5"/>
+                                            <constraint firstAttribute="width" constant="330" id="qbb-l4-8Kv"/>
+                                        </constraints>
+                                        <string key="text">How much income can you expect each month? If your income is in the form of a regular paycheck where taxes are automatically deducted, then using the net income (or take-home pay) amount is fine. If you are self-employed or have outside sources of income, such as child support or Social Security, include these as well. Record this total income as a monthly amount.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstItem="UFn-Rb-mkT" firstAttribute="centerY" secondItem="sB3-nE-LPZ" secondAttribute="centerY" constant="-19.5" id="9m1-pw-qXM"/>
+                                    <constraint firstItem="Chf-IL-okN" firstAttribute="centerY" secondItem="sB3-nE-LPZ" secondAttribute="centerY" constant="162.5" id="A2S-Od-Lwk"/>
+                                    <constraint firstAttribute="width" constant="344" id="AQZ-yC-bKC"/>
+                                    <constraint firstItem="Rsw-Q1-rBz" firstAttribute="centerX" secondItem="sB3-nE-LPZ" secondAttribute="centerX" id="BAj-kd-4xK"/>
+                                    <constraint firstItem="7vn-s2-sFQ" firstAttribute="centerX" secondItem="sB3-nE-LPZ" secondAttribute="centerX" id="BMz-Iv-ukT"/>
+                                    <constraint firstItem="iOX-aR-5Q1" firstAttribute="centerY" secondItem="sB3-nE-LPZ" secondAttribute="centerY" constant="202.5" id="C1i-ct-0oP"/>
+                                    <constraint firstItem="wTs-FZ-WeH" firstAttribute="centerX" secondItem="sB3-nE-LPZ" secondAttribute="centerX" id="HRb-au-nGp"/>
+                                    <constraint firstItem="7vn-s2-sFQ" firstAttribute="centerY" secondItem="sB3-nE-LPZ" secondAttribute="centerY" constant="-190" id="M1n-VJ-Y1r"/>
+                                    <constraint firstItem="MWl-eC-dOI" firstAttribute="centerX" secondItem="sB3-nE-LPZ" secondAttribute="centerX" constant="-66" id="PhO-xm-tef"/>
+                                    <constraint firstAttribute="height" constant="590" id="Rh7-en-62d"/>
+                                    <constraint firstItem="uhB-sQ-4hs" firstAttribute="centerY" secondItem="sB3-nE-LPZ" secondAttribute="centerY" constant="-95.75" id="Syq-YC-Gof"/>
+                                    <constraint firstItem="uhB-sQ-4hs" firstAttribute="centerX" secondItem="sB3-nE-LPZ" secondAttribute="centerX" constant="-10.5" id="TVD-K6-ooR"/>
+                                    <constraint firstItem="UFn-Rb-mkT" firstAttribute="centerX" secondItem="sB3-nE-LPZ" secondAttribute="centerX" constant="7" id="UWN-ps-RaZ"/>
+                                    <constraint firstItem="MWl-eC-dOI" firstAttribute="centerY" secondItem="sB3-nE-LPZ" secondAttribute="centerY" constant="-273.5" id="VHj-9q-ADS"/>
+                                    <constraint firstItem="Chf-IL-okN" firstAttribute="centerX" secondItem="sB3-nE-LPZ" secondAttribute="centerX" id="cmr-Gq-8Ic"/>
+                                    <constraint firstItem="iOX-aR-5Q1" firstAttribute="centerX" secondItem="sB3-nE-LPZ" secondAttribute="centerX" id="qSp-W8-DcC"/>
+                                    <constraint firstItem="Rsw-Q1-rBz" firstAttribute="centerY" secondItem="sB3-nE-LPZ" secondAttribute="centerY" constant="85.5" id="toE-St-sPq"/>
+                                    <constraint firstItem="wTs-FZ-WeH" firstAttribute="centerY" secondItem="sB3-nE-LPZ" secondAttribute="centerY" constant="112.5" id="zXu-z8-mqQ"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="lwg-Cf-Wjr"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="kbW-nm-U2n"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FR-td-OQX">
+                                <rect key="frame" x="65" y="134" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="aEF-bg-Fjf"/>
+                                    <constraint firstAttribute="width" constant="97" id="uOW-Cc-j01"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Budgeting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfc-i2-g3o">
+                                <rect key="frame" x="122.5" y="195" width="169" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="0f9-BT-2mS"/>
+                                    <constraint firstAttribute="height" constant="42" id="v1w-4X-00O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK6-XD-vUh">
+                                <rect key="frame" x="118" y="216" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3Sg-xS-Swe"/>
+                                    <constraint firstAttribute="width" constant="177.5" id="rJ9-gv-8ME"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RZV-7G-BLA"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sB3-nE-LPZ" firstAttribute="centerY" secondItem="8r8-vC-ubZ" secondAttribute="centerY" constant="99" id="0Tg-62-dyv"/>
+                            <constraint firstItem="nfc-i2-g3o" firstAttribute="centerY" secondItem="8r8-vC-ubZ" secondAttribute="centerY" constant="-232" id="6DR-qX-MKl"/>
+                            <constraint firstItem="dqf-cQ-VKT" firstAttribute="centerX" secondItem="8r8-vC-ubZ" secondAttribute="centerX" constant="50.5" id="XQp-Od-JQY"/>
+                            <constraint firstItem="sB3-nE-LPZ" firstAttribute="centerX" secondItem="8r8-vC-ubZ" secondAttribute="centerX" id="ZNK-hf-4wp"/>
+                            <constraint firstItem="nfc-i2-g3o" firstAttribute="centerX" secondItem="8r8-vC-ubZ" secondAttribute="centerX" id="cuh-D7-ipe"/>
+                            <constraint firstItem="1FR-td-OQX" firstAttribute="centerX" secondItem="8r8-vC-ubZ" secondAttribute="centerX" constant="-93.5" id="kE9-fH-LVh"/>
+                            <constraint firstItem="1FR-td-OQX" firstAttribute="centerY" secondItem="8r8-vC-ubZ" secondAttribute="centerY" constant="-281.5" id="nJ1-hH-tmK"/>
+                            <constraint firstItem="dqf-cQ-VKT" firstAttribute="centerY" secondItem="8r8-vC-ubZ" secondAttribute="centerY" constant="-281.5" id="vwm-jA-hrB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Idy-76-YX3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tuT-DL-7ZU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3841" y="-1637"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="olL-Cw-N69">
+            <objects>
+                <viewController id="i7g-zb-fbZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WUZ-Lt-vPd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5g0-2k-7Se">
+                                <rect key="frame" x="157" y="134" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="LGM-iP-JEz"/>
+                                    <constraint firstAttribute="width" constant="201" id="nY9-Qe-0aO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PYc-ok-z5j">
+                                <rect key="frame" x="35" y="252" width="344" height="590"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Balancing a Budget" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnR-qQ-2dv">
+                                        <rect key="frame" x="8" y="8" width="223" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="70/20/10 Rule" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L0a-8x-vS7">
+                                        <rect key="frame" x="8" y="205" width="110" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDT-gr-IUo">
+                                        <rect key="frame" x="199" y="545" width="118" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Take the Quiz &gt;">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GQV-K6-jcw">
+                                        <rect key="frame" x="14" y="43" width="110" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">50/20/30 Rule 
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HUW-7T-k0n">
+                                        <rect key="frame" x="37" y="240" width="307" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">You take your monthly take-home income and divide it by 70%, 20%, and 10%. You divide up the percentages as so: 70% is for monthly expenses. 20% goes into savings unless you have pressing debt (see below for my definition), in which case it goes toward debt first.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fMP-dW-bmT">
+                                        <rect key="frame" x="37" y="75" width="307" height="181"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• The 50/30/20 rule budget is a simple way to budget that doesn't involve detailed budgeting categories. Instead, you spend 50% of your after-tax pay on needs, 30% on wants, and 20% on savings or paying off debt.</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="590" id="Cpw-Ro-Pjd"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="344" id="koY-D8-and"/>
+                                    <constraint firstAttribute="height" constant="590" id="o0L-gF-O02"/>
+                                    <constraint firstAttribute="width" constant="344" id="zcG-mt-xNK"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="XZZ-oN-THk"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="0Vw-pi-23q"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3Q-sE-Ity">
+                                <rect key="frame" x="65" y="134" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="yU4-UQ-8j6"/>
+                                    <constraint firstAttribute="width" constant="97" id="zcG-he-e3n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Budgeting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyU-N4-WGs">
+                                <rect key="frame" x="122.5" y="195" width="169" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="Bw7-oP-LDd"/>
+                                    <constraint firstAttribute="width" constant="169" id="GmA-kW-Avr"/>
+                                    <constraint firstAttribute="height" constant="42" id="OyH-D9-onn"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="zHE-9s-rC6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYA-RD-8UJ">
+                                <rect key="frame" x="118.5" y="216" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177.5" id="F8N-NW-njx"/>
+                                    <constraint firstAttribute="height" constant="21" id="wPe-v3-TWw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BXp-rf-d1m"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="R3Q-sE-Ity" firstAttribute="centerX" secondItem="WUZ-Lt-vPd" secondAttribute="centerX" constant="-93.5" id="69G-VO-pXk"/>
+                            <constraint firstItem="zyU-N4-WGs" firstAttribute="centerY" secondItem="WUZ-Lt-vPd" secondAttribute="centerY" constant="-232" id="76g-8L-mhp"/>
+                            <constraint firstItem="SYA-RD-8UJ" firstAttribute="centerX" secondItem="WUZ-Lt-vPd" secondAttribute="centerX" id="8Ir-6S-3tR"/>
+                            <constraint firstItem="PYc-ok-z5j" firstAttribute="centerY" secondItem="WUZ-Lt-vPd" secondAttribute="centerY" constant="99" id="9da-kD-UvR"/>
+                            <constraint firstItem="5g0-2k-7Se" firstAttribute="centerY" secondItem="WUZ-Lt-vPd" secondAttribute="centerY" constant="-281.5" id="CRe-yO-FCW"/>
+                            <constraint firstItem="SYA-RD-8UJ" firstAttribute="centerY" secondItem="WUZ-Lt-vPd" secondAttribute="centerY" constant="-221.5" id="LH3-3D-OZm"/>
+                            <constraint firstItem="R3Q-sE-Ity" firstAttribute="centerY" secondItem="WUZ-Lt-vPd" secondAttribute="centerY" constant="-281.5" id="PsB-RX-7Zs"/>
+                            <constraint firstItem="PYc-ok-z5j" firstAttribute="centerX" secondItem="WUZ-Lt-vPd" secondAttribute="centerX" id="T1b-6I-DdV"/>
+                            <constraint firstItem="5g0-2k-7Se" firstAttribute="centerX" secondItem="WUZ-Lt-vPd" secondAttribute="centerX" constant="50.5" id="slt-Ub-fIh"/>
+                            <constraint firstItem="zyU-N4-WGs" firstAttribute="centerX" secondItem="WUZ-Lt-vPd" secondAttribute="centerX" id="vC7-s4-XWE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9do-za-SH4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9jN-NX-Tqj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4786" y="-2410"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QWQ-60-InP">
+            <objects>
+                <viewController id="t2m-lY-EGM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dlo-9S-aqN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ko0-Er-y7E">
+                                <rect key="frame" x="157" y="134" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="7Cd-5M-hGI"/>
+                                    <constraint firstAttribute="height" constant="65" id="IzH-Sj-HL9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oeB-An-Vpj">
+                                <rect key="frame" x="35" y="252" width="344" height="590"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Balancing a Budget" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bd4-2w-Vdt">
+                                        <rect key="frame" x="8" y="8" width="223" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="70/20/10 Rule" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8bG-qU-hQ2">
+                                        <rect key="frame" x="8" y="205" width="110" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvN-XY-fjw">
+                                        <rect key="frame" x="199" y="545" width="118" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Take the Quiz &gt;">
+                                            <color key="titleColor" systemColor="linkColor"/>
+                                        </state>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e3B-OH-I9F">
+                                        <rect key="frame" x="14" y="43" width="110" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">50/20/30 Rule 
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HLH-LV-Rxz">
+                                        <rect key="frame" x="37" y="240" width="307" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">You take your monthly take-home income and divide it by 70%, 20%, and 10%. You divide up the percentages as so: 70% is for monthly expenses. 20% goes into savings unless you have pressing debt (see below for my definition), in which case it goes toward debt first.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a4Y-wc-xdF">
+                                        <rect key="frame" x="37" y="75" width="307" height="181"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• The 50/30/20 rule budget is a simple way to budget that doesn't involve detailed budgeting categories. Instead, you spend 50% of your after-tax pay on needs, 30% on wants, and 20% on savings or paying off debt.</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="344" id="221-OE-K7v"/>
+                                    <constraint firstAttribute="width" constant="344" id="cMr-tz-ZqD"/>
+                                    <constraint firstAttribute="height" constant="590" id="g4o-pt-YqM"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="590" id="pcL-Dg-fFT"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Kxb-86-5g4"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="R7c-5K-yqV"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpR-RB-dhG">
+                                <rect key="frame" x="65" y="134" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="hQ7-zx-v5K"/>
+                                    <constraint firstAttribute="height" constant="65" id="ohA-CN-sbN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Budgeting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qlk-ON-W9L">
+                                <rect key="frame" x="122.5" y="195" width="169" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="AEB-zy-tHf"/>
+                                    <constraint firstAttribute="width" constant="169" id="OyJ-Xz-vuE"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="eKc-MT-U5p"/>
+                                    <constraint firstAttribute="height" constant="42" id="utT-M5-w5t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Z7-qm-Ecv">
+                                <rect key="frame" x="118.5" y="216" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177.5" id="Aqc-Ap-06Z"/>
+                                    <constraint firstAttribute="height" constant="21" id="hFG-3h-dOX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0fb-Hd-kjN"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="Qlk-ON-W9L" firstAttribute="centerX" secondItem="dlo-9S-aqN" secondAttribute="centerX" id="06a-wj-NQ5"/>
+                            <constraint firstItem="oeB-An-Vpj" firstAttribute="centerY" secondItem="dlo-9S-aqN" secondAttribute="centerY" constant="99" id="1jB-Jw-LxT"/>
+                            <constraint firstItem="6Z7-qm-Ecv" firstAttribute="centerY" secondItem="dlo-9S-aqN" secondAttribute="centerY" constant="-221.5" id="6uD-y9-YcM"/>
+                            <constraint firstItem="ko0-Er-y7E" firstAttribute="centerY" secondItem="dlo-9S-aqN" secondAttribute="centerY" constant="-281.5" id="9gH-4e-zxA"/>
+                            <constraint firstItem="oeB-An-Vpj" firstAttribute="centerX" secondItem="dlo-9S-aqN" secondAttribute="centerX" id="GwZ-DU-y5O"/>
+                            <constraint firstItem="Qlk-ON-W9L" firstAttribute="centerY" secondItem="dlo-9S-aqN" secondAttribute="centerY" constant="-232" id="Htb-2o-Sry"/>
+                            <constraint firstItem="YpR-RB-dhG" firstAttribute="centerX" secondItem="dlo-9S-aqN" secondAttribute="centerX" constant="-93.5" id="Maa-cA-Ob8"/>
+                            <constraint firstItem="YpR-RB-dhG" firstAttribute="centerY" secondItem="dlo-9S-aqN" secondAttribute="centerY" constant="-281.5" id="Uym-qe-nz4"/>
+                            <constraint firstItem="6Z7-qm-Ecv" firstAttribute="centerX" secondItem="dlo-9S-aqN" secondAttribute="centerX" id="nJn-Sc-5Vj"/>
+                            <constraint firstItem="ko0-Er-y7E" firstAttribute="centerX" secondItem="dlo-9S-aqN" secondAttribute="centerX" constant="50.5" id="sPi-PX-QEK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cVA-1C-CAe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qgd-v2-dbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4786" y="-1637"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="byS-Hz-FKR">
+            <objects>
+                <viewController id="GEY-bq-FCD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fgV-Bb-ZzE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAo-YX-37Z">
+                                <rect key="frame" x="157" y="134" width="201" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="42O-2Q-ToR"/>
+                                    <constraint firstAttribute="height" constant="65" id="RQq-rb-820"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.83137254900000002" green="0.87843137250000003" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AkQ-49-EgS">
+                                <rect key="frame" x="35" y="252" width="344" height="590"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Balancing a Budget" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwM-uI-3LD">
+                                        <rect key="frame" x="8" y="8" width="223" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="70/20/10 Rule" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1rS-tK-ayF">
+                                        <rect key="frame" x="8" y="205" width="110" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VYj-l8-Iet">
+                                        <rect key="frame" x="14" y="43" width="110" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">50/20/30 Rule 
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lv6-AD-nXx">
+                                        <rect key="frame" x="37" y="240" width="307" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">You take your monthly take-home income and divide it by 70%, 20%, and 10%. You divide up the percentages as so: 70% is for monthly expenses. 20% goes into savings unless you have pressing debt (see below for my definition), in which case it goes toward debt first.
+</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tQG-PG-9Cq">
+                                        <rect key="frame" x="37" y="75" width="307" height="181"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">• The 50/30/20 rule budget is a simple way to budget that doesn't involve detailed budgeting categories. Instead, you spend 50% of your after-tax pay on needs, 30% on wants, and 20% on savings or paying off debt.</string>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="344" id="4ha-Gy-iaQ"/>
+                                    <constraint firstAttribute="width" constant="344" id="9EZ-lV-dvs"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="590" id="Ayp-fD-4NS"/>
+                                    <constraint firstAttribute="height" constant="590" id="sGY-zG-n9v"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="qJj-Sc-5lx"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="wN7-27-Uwi"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIq-rN-wYU">
+                                <rect key="frame" x="65" y="134" width="97" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="2CS-xK-cng"/>
+                                    <constraint firstAttribute="height" constant="65" id="2S7-Md-hAK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="50"/>
+                                <color key="textColor" red="0.94509803920000002" green="0.61176470589999998" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Budgeting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44T-HV-3ZW">
+                                <rect key="frame" x="122.5" y="195" width="169" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="220-9O-pKC"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="169" id="3Mo-CG-5XC"/>
+                                    <constraint firstAttribute="height" constant="42" id="ITq-Wj-LSc"/>
+                                    <constraint firstAttribute="width" constant="169" id="Pi6-mi-gD7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csn-7P-zXM">
+                                <rect key="frame" x="118.5" y="216" width="177.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177.5" id="Ba8-Oa-Mrd"/>
+                                    <constraint firstAttribute="height" constant="21" id="fHU-dd-jYN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bH2-zw-0TX"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                        <constraints>
+                            <constraint firstItem="CIq-rN-wYU" firstAttribute="centerY" secondItem="fgV-Bb-ZzE" secondAttribute="centerY" constant="-281.5" id="GTm-UY-cYI"/>
+                            <constraint firstItem="CIq-rN-wYU" firstAttribute="centerX" secondItem="fgV-Bb-ZzE" secondAttribute="centerX" constant="-93.5" id="JKk-A8-bp2"/>
+                            <constraint firstItem="YAo-YX-37Z" firstAttribute="centerX" secondItem="fgV-Bb-ZzE" secondAttribute="centerX" constant="50.5" id="Opo-7R-Vbc"/>
+                            <constraint firstItem="44T-HV-3ZW" firstAttribute="centerX" secondItem="fgV-Bb-ZzE" secondAttribute="centerX" id="PK9-pr-uzq"/>
+                            <constraint firstItem="Csn-7P-zXM" firstAttribute="centerX" secondItem="fgV-Bb-ZzE" secondAttribute="centerX" id="SMe-Y0-Jci"/>
+                            <constraint firstItem="44T-HV-3ZW" firstAttribute="centerY" secondItem="fgV-Bb-ZzE" secondAttribute="centerY" constant="-232" id="YsP-XY-GRL"/>
+                            <constraint firstItem="YAo-YX-37Z" firstAttribute="centerY" secondItem="fgV-Bb-ZzE" secondAttribute="centerY" constant="-281.5" id="Z3d-dA-vbN"/>
+                            <constraint firstItem="Csn-7P-zXM" firstAttribute="centerY" secondItem="fgV-Bb-ZzE" secondAttribute="centerY" constant="-221.5" id="ax0-7W-hTs"/>
+                            <constraint firstItem="AkQ-49-EgS" firstAttribute="centerX" secondItem="fgV-Bb-ZzE" secondAttribute="centerX" id="efK-ep-pKG"/>
+                            <constraint firstItem="AkQ-49-EgS" firstAttribute="centerY" secondItem="fgV-Bb-ZzE" secondAttribute="centerY" constant="99" id="ind-hI-QZW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="nw9-Vb-iYd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GRj-70-80c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4786" y="-1637"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="XeR-qy-Fer"/>
+        <segue reference="XDx-Hu-yKp"/>
         <segue reference="Qkb-wq-Q19"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemTealColor"/>
